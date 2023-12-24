@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Barlow";
+    src: url(../fonts/BarlowSemiCondensed-Light.ttf);
+
+}
+
+@font-face {
+    font-family: "Sacramento";
+    src: url(./fonts/Sacramento-Regular.ttf);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav {
+    background-color: rgb(222, 155, 237);
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.menu {
+    
+    font-family: Sacramento;
+    font-size:xx-large;
+    color:rgb(84, 12, 85);
+
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-items:center; /*no se centra*/
+
+    gap: 1rem;
+}
+h1 {
+
+    font-family: Barlow;
+    font-size:xx-large;
+    color:rgb(31, 128, 122);
+    margin: 1rem;
+
+}
+
+h3 {
+
+    font-family: Barlow;
+    font-size:larger; /*no recuerdo si así el tamaño de fuente*/
+    color:rgb(31, 128, 122);
+    margin: 1rem;
+
+}
+p {
+    font-family: Barlow;
+    color: rgb(96, 97, 97);
+    /*width: 200px;*/
+
+    margin: 1rem;
+}
+
+img {
+
+    margin: 1rem;
+    
+}
+
+h2 {
+
+    font-family: Barlow;
+    font-size:larger; /*no recuerdo si así el tamaño de fuente*/
+    color:rgb(107, 31, 128);
+    margin: 1rem;
+
+}
+
+.test1{
+    color: blueviolet;
+}
+
+.pie {
+    background-color: rgb(48, 181, 161);
+    color:rgb(195, 236, 234);
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
