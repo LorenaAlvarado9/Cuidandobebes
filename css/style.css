@@ -36,7 +36,7 @@ img {
 }
 
 .quien {
-    background-color: rgb(225, 127, 255);
+    background-color: rgb(221, 160, 239);
     grid-area: quien;
     font-family: Sacramento;
     font-size: xx-large;
@@ -45,30 +45,36 @@ img {
     background-size: cover;
     background-position: center;
     background-image: url("../img/DraBere.png");
+    border-radius: 2rem;
+
 }
 .servicios {
     background-color: rgb(116, 187, 193);
     grid-area: servicios;
     font-family: Sacramento;
     font-size: xx-large;
+    border-radius: 2rem;
 }
 .sueno {
-    background-color: rgb(127, 180, 255);
+    background-color: rgb(252, 185, 242);
     grid-area: sueno;
     font-family: Sacramento;
     font-size: xx-large;
+    border-radius: 2rem;
 }
 .urgencias {
-    background-color: rgb(255, 212, 127);
+    background-color: rgb(255, 202, 127);
     grid-area: urgencias;
     font-family: Sacramento;
     font-size: xx-large;
+    border-radius: 2rem;
 }
 .contacto {
-    background-color: rgb(127, 255, 165);
+    background-color: rgb(217, 134, 221);
     grid-area: contacto;
     font-family: Sacramento;
     font-size: xx-large;
+    border-radius: 2rem;
 }
 
 .hijo {
