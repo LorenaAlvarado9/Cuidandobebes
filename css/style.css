@@ -20,8 +20,68 @@ img {
     max-width: 100%;
 }
 
+.grilla {
+    height: 100vh;
+    background-color: rgb(245, 233, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: 
+    "quien quien servicios urgencias"
+    "quien quien sueno contacto";
+
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.quien {
+    background-color: rgb(225, 127, 255);
+    grid-area: quien;
+    font-family: Sacramento;
+    font-size: xx-large;
+    background-image: url("../img/perrito.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/DraBere.png");
+}
+.servicios {
+    background-color: rgb(116, 187, 193);
+    grid-area: servicios;
+    font-family: Sacramento;
+    font-size: xx-large;
+}
+.sueno {
+    background-color: rgb(127, 180, 255);
+    grid-area: sueno;
+    font-family: Sacramento;
+    font-size: xx-large;
+}
+.urgencias {
+    background-color: rgb(255, 212, 127);
+    grid-area: urgencias;
+    font-family: Sacramento;
+    font-size: xx-large;
+}
+.contacto {
+    background-color: rgb(127, 255, 165);
+    grid-area: contacto;
+    font-family: Sacramento;
+    font-size: xx-large;
+}
+
+.hijo {
+    padding: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 .nav {
-    background-color: rgb(222, 155, 237);
+    background-color: rgb(237, 194, 247);
     display: flex;
     padding: 1rem;
     justify-content: space-between;
