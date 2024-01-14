@@ -22,6 +22,10 @@ body {
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
+
+
+   
+
 }
 
 img {
@@ -167,9 +171,6 @@ h2 {
 
 .pie {
     background-color: rgb(48, 181, 161);
-    color:rgb(195, 236, 234);
-    display: flex;
-    padding: 1rem;
-    justify-content: space-between;
-    align-items: center;
+    padding: 1em 0;
+    text-align: center;
 }
