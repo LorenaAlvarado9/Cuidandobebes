@@ -1,13 +1,11 @@
 @font-face {
     font-family: "Barlow";
     src: url(../fonts/BarlowSemiCondensed-Light.ttf);
-
 }
 
 @font-face {
     font-family: "Sacramento";
     src: url(./fonts/Sacramento-Regular.ttf);
-
 }
 
 * {
@@ -34,7 +32,6 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
     grid-template-areas: 
     "quien quien servicios urgencias"
     "quien quien sueno contacto";
@@ -53,8 +50,8 @@ img {
     background-position: center;
     background-image: url("../img/DraBere.png");
     border-radius: 2rem;
-
 }
+
 .servicios {
     background-color: rgb(116, 187, 193);
     grid-area: servicios;
@@ -62,6 +59,7 @@ img {
     font-size: xx-large;
     border-radius: 2rem;
 }
+
 .sueno {
     background-color: rgb(252, 185, 242);
     grid-area: sueno;
@@ -69,6 +67,7 @@ img {
     font-size: xx-large;
     border-radius: 2rem;
 }
+
 .urgencias {
     background-color: rgb(255, 202, 127);
     grid-area: urgencias;
@@ -76,6 +75,7 @@ img {
     font-size: xx-large;
     border-radius: 2rem;
 }
+
 .contacto {
     background-color: rgb(217, 134, 221);
     grid-area: contacto;
@@ -86,7 +86,6 @@ img {
 
 .hijo {
     padding: 2rem;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,58 +105,47 @@ img {
 }
 
 .menu {
-    
-    font-family: Sacramento;
+    font-family: Barlow;
     font-size:xx-large;
     color:rgb(84, 12, 85);
-
     list-style-type:none;
     display:flex;
     flex-direction:row;
     flex-wrap:nowrap;
     justify-content:center;
     align-items:center; /*no se centra*/
-
     gap: 1rem;
 }
-h1 {
 
+h1 {
     font-family: Barlow;
     font-size:xx-large;
     color:rgb(31, 128, 122);
     margin: 1rem;
-
 }
 
 h3 {
-
     font-family: Barlow;
     font-size:larger; /*no recuerdo si así el tamaño de fuente*/
     color:rgb(31, 128, 122);
     margin: 1rem;
-
 }
+
 p {
     font-family: Barlow;
     color: rgb(96, 97, 97);
-    /*width: 200px;*/
-
     margin: 1rem;
 }
 
 img {
-
     margin: 1rem;
-    
 }
 
 h2 {
-
     font-family: Barlow;
     font-size:larger; /*no recuerdo si así el tamaño de fuente*/
     color:rgb(107, 31, 128);
     margin: 1rem;
-
 }
 
 .test1{
