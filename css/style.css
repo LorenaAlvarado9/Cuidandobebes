@@ -22,10 +22,6 @@ body {
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
-
-
-   
-
 }
 
 img {
@@ -42,7 +38,6 @@ img {
     grid-template-areas: 
     "quien quien servicios urgencias"
     "quien quien sueno contacto";
-
     justify-items: stretch;
     align-items: stretch;
 }
@@ -50,7 +45,7 @@ img {
 .quien {
     background-color: rgb(221, 160, 239);
     grid-area: quien;
-    font-family: Sacramento;
+    font-family: Barlow;
     font-size: xx-large;
     background-image: url("../img/perrito.jpeg");
     background-repeat: no-repeat;
@@ -63,28 +58,28 @@ img {
 .servicios {
     background-color: rgb(116, 187, 193);
     grid-area: servicios;
-    font-family: Sacramento;
+    font-family: Barlow;
     font-size: xx-large;
     border-radius: 2rem;
 }
 .sueno {
     background-color: rgb(252, 185, 242);
     grid-area: sueno;
-    font-family: Sacramento;
+    font-family: Barlow;
     font-size: xx-large;
     border-radius: 2rem;
 }
 .urgencias {
     background-color: rgb(255, 202, 127);
     grid-area: urgencias;
-    font-family: Sacramento;
+    font-family: Barlow;
     font-size: xx-large;
     border-radius: 2rem;
 }
 .contacto {
     background-color: rgb(217, 134, 221);
     grid-area: contacto;
-    font-family: Sacramento;
+    font-family: Barlow;
     font-size: xx-large;
     border-radius: 2rem;
 }
@@ -171,6 +166,7 @@ h2 {
 
 .pie {
     background-color: rgb(48, 181, 161);
+    font-family: Barlow;
     padding: 1em 0;
     text-align: center;
 }
