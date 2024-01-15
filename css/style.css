@@ -113,7 +113,7 @@ img {
     flex-direction:row;
     flex-wrap:nowrap;
     justify-content:center;
-    align-items:center; /*no se centra*/
+    align-items:center;
     gap: 1rem;
 }
 
@@ -126,7 +126,7 @@ h1 {
 
 h3 {
     font-family: Barlow;
-    font-size:larger; /*no recuerdo si así el tamaño de fuente*/
+    font-size:larger;
     color:rgb(31, 128, 122);
     margin: 1rem;
 }
@@ -143,7 +143,7 @@ img {
 
 h2 {
     font-family: Barlow;
-    font-size:larger; /*no recuerdo si así el tamaño de fuente*/
+    font-size:larger; 
     color:rgb(107, 31, 128);
     margin: 1rem;
 }
