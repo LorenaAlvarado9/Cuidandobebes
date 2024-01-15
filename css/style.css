@@ -43,18 +43,6 @@ img {
     align-items: stretch;
     text-decoration: none;
 }
-@media (max-width: 578px) {
-    .grilla {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        grid grid-template-areas:
-        "quien"
-        "servicios"
-        "urgencias"
-        "sueno"
-        "contacto";
-    }
-}
 
 .quien {
     background-color: rgb(221, 160, 239);
@@ -100,6 +88,18 @@ img {
     font-family: Barlow;
     font-size: larger;
     border-radius: 2rem;
+}
+@media (max-width: 578px) {
+    .grilla {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+        "quien"
+        "servicios"
+        "urgencias"
+        "sueno"
+        "contacto";
+    }
 }
 
 .hijo {
@@ -176,3 +176,5 @@ h2 {
     padding: 1em 0;
     text-align: center;
 }
+
+
