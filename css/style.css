@@ -43,7 +43,7 @@ img {
     background-color: rgb(221, 160, 239);
     grid-area: quien;
     font-family: Barlow;
-    font-size: xx-large;
+    font-size: larger;
     background-image: url("../img/perrito.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,7 +56,7 @@ img {
     background-color: rgb(116, 187, 193);
     grid-area: servicios;
     font-family: Barlow;
-    font-size: xx-large;
+    font-size: larger;
     border-radius: 2rem;
 }
 
@@ -64,7 +64,7 @@ img {
     background-color: rgb(252, 185, 242);
     grid-area: sueno;
     font-family: Barlow;
-    font-size: xx-large;
+    font-size: larger;
     border-radius: 2rem;
 }
 
@@ -72,7 +72,7 @@ img {
     background-color: rgb(255, 202, 127);
     grid-area: urgencias;
     font-family: Barlow;
-    font-size: xx-large;
+    font-size: larger;
     border-radius: 2rem;
 }
 
@@ -80,7 +80,7 @@ img {
     background-color: rgb(217, 134, 221);
     grid-area: contacto;
     font-family: Barlow;
-    font-size: xx-large;
+    font-size: larger;
     border-radius: 2rem;
 }
 
@@ -106,7 +106,7 @@ img {
 
 .menu {
     font-family: Barlow;
-    font-size:xx-large;
+    font-size: larger;
     color:rgb(84, 12, 85);
     list-style-type:none;
     display:flex;
