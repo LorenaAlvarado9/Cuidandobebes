@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+header {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     background-color: rgb(228, 232, 232);
@@ -37,6 +41,7 @@ img {
     "quien quien sueno contacto";
     justify-items: stretch;
     align-items: stretch;
+    text-decoration: none;
 }
 
 .quien {
@@ -50,6 +55,7 @@ img {
     background-position: center;
     background-image: url("../img/DraBere.png");
     border-radius: 2rem;
+    text-decoration: none;
 }
 
 .servicios {
