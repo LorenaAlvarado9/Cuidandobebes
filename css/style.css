@@ -18,6 +18,10 @@ header {
     text-decoration: none;
 }
 
+.menuhamb {
+    width: 40px;
+}
+
 body {
     margin: 0;
     background-color: rgb(228, 232, 232);
@@ -100,6 +104,10 @@ img {
         "sueno"
         "contacto";
     }
+}
+
+@media screen and (min-width: 768px){
+    .nav 
 }
 
 .hijo {
