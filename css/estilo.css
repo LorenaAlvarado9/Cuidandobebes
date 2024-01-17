@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Barlow";
+  src: url(../fonts/BarlowSemiCondensed-Light.ttf);
+}
+@font-face {
+  font-family: "Sacramento";
+  src: url(./fonts/Sacramento-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.encabezado {
+  background-color: rgb(247, 236, 250);
+}
+
+.menuhamb {
+  width: 40px;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(228, 232, 232);
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+img {
+  width: 10%;
+  align-self: center;
+  justify-self: center;
+}
+
+.grilla {
+  height: 100vh;
+  background-color: rgb(245, 233, 247);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "quien quien servicios urgencias" "quien quien sueno contacto";
+  justify-items: stretch;
+  align-items: stretch;
+  text-decoration: none;
+}
+
+.quien {
+  background-color: rgb(221, 160, 239);
+  grid-area: quien;
+  font-family: Barlow;
+  font-size: larger;
+  background-image: url("../img/perrito.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/DraBere.png");
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.servicios {
+  background-color: rgb(116, 187, 193);
+  grid-area: servicios;
+  font-family: Barlow;
+  font-size: larger;
+  border-radius: 2rem;
+}
+
+.sueno {
+  background-color: rgb(252, 185, 242);
+  grid-area: sueno;
+  font-family: Barlow;
+  font-size: larger;
+  border-radius: 2rem;
+}
+
+.urgencias {
+  background-color: rgb(255, 202, 127);
+  grid-area: urgencias;
+  font-family: Barlow;
+  font-size: larger;
+  border-radius: 2rem;
+}
+
+.contacto {
+  background-color: rgb(217, 134, 221);
+  grid-area: contacto;
+  font-family: Barlow;
+  font-size: larger;
+  border-radius: 2rem;
+}
+
+@media (max-width: 578px) {
+  .grilla {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "quien" "servicios" "urgencias" "sueno" "contacto";
+  }
+}
+.hijo {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.nav {
+  background-color: rgb(200, 128, 216);
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 5rem;
+}
+
+.menu {
+  font-family: Barlow;
+  font-size: larger;
+  color: rgb(235, 200, 236);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+h1 {
+  font-family: Barlow;
+  font-size: xx-large;
+  color: rgb(31, 128, 122);
+  margin: 1rem;
+}
+
+h3 {
+  font-family: Barlow;
+  font-size: larger;
+  color: rgb(31, 128, 122);
+  margin: 1rem;
+}
+
+p {
+  font-family: Barlow;
+  color: rgb(96, 97, 97);
+  margin: 1rem;
+}
+
+img {
+  margin: 1rem;
+}
+
+h2 {
+  font-family: Barlow;
+  font-size: larger;
+  color: rgb(107, 31, 128);
+  margin: 1rem;
+}
+
+.test1 {
+  color: rgb(43, 226, 198);
+}
+
+.menu-item {
+  color: aliceblue;
+}
+
+.pie {
+  background-color: rgb(48, 181, 161);
+  font-family: Barlow;
+  padding: 1em 0;
+  text-align: center;
+}/*# sourceMappingURL=estilo.css.map */
