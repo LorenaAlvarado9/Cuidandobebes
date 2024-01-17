@@ -109,10 +109,6 @@ img {
     }
 }
 
-@media screen and (min-width: 768px){
-    .nav 
-}
-
 .hijo {
     padding: 2rem;
     display: flex;
