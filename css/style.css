@@ -14,8 +14,9 @@
     box-sizing: border-box;
 }
 
-header {
-    text-decoration: none;
+.encabezado {
+    background-color: rgb(247, 236, 250);
+
 }
 
 .menuhamb {
@@ -31,7 +32,9 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 10%;
+    align-self: center;
+    justify-self: center;
 }
 
 .grilla {
@@ -119,7 +122,7 @@ img {
 }
 
 .nav {
-    background-color: rgb(237, 194, 247);
+    background-color: rgb(200, 128, 216);
     display: flex;
     padding: 1rem;
     justify-content: space-between;
@@ -133,7 +136,7 @@ img {
 .menu {
     font-family: Barlow;
     font-size: larger;
-    color:rgb(84, 12, 85);
+    color:rgb(235, 200, 236);
     list-style-type:none;
     display:flex;
     flex-direction:row;
@@ -175,7 +178,11 @@ h2 {
 }
 
 .test1{
-    color: blueviolet;
+    color: rgb(43, 226, 198);
+}
+
+.menu-item {
+color:aliceblue;
 }
 
 .pie {
